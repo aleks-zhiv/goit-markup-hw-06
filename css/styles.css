@@ -44,7 +44,8 @@ ul {
     padding: 0 16px;
 }
 
-/* header */
+/* --HEADER-- */
+
 .header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -71,7 +72,7 @@ ul {
     cursor: pointer;
 }
 
-/* Mob Menu */
+/* ---- */
 
 .mob-menu {
     width: 100%;
@@ -111,7 +112,6 @@ ul {
 .mob-header-menu-item {
     font-weight: 700;
     font-size: 36px;
-
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -168,7 +168,7 @@ ul {
     padding-right: 40px;
 }
 
-/* //-------------------------------// */
+/* //---// */
 
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -259,13 +259,13 @@ ul {
     color: #434455;
 }
 
-.mob-header-address-link:hover,
-.mob-header-address-link:active,
+.mob-header-address-link:hover, .mob-header-address-link:active,
 .mob-header-address-link:focus {
     color: #404bbf;
 }
 
-/* Section Title */
+/* ---- */
+
 .headline {
     padding: 72px 0;
     background-color: #2e2f42;
@@ -350,8 +350,6 @@ ul {
     gap: 72px;
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap;
-  align-items: baseline; */
 }
 
 .content-menu-item {
@@ -370,7 +368,6 @@ ul {
 .content-subtitle {
     font-weight: 700;
     font-size: 36px;
-
     line-height: 40px;
     line-height: 1.11111;
     letter-spacing: 0.02em;
@@ -396,7 +393,8 @@ ul {
     display: none;
 }
 
-/* Our Team */
+/* --Our Team-- */
+
 .team {
     background-color: #f4f4fd;
     padding: 96px 0;
@@ -423,7 +421,6 @@ ul {
 
 .team-menu-item {
     background-color: #ffffff;
-
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -490,7 +487,8 @@ ul {
     margin-bottom: 8px;
 }
 
-/* Portfolio */
+/* --Portfolio-- */
+
 .portfolio {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -504,7 +502,6 @@ ul {
 }
 
 .portfolio-item {
-    /* width: calc((100% - 48px) / 3); */
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -542,7 +539,6 @@ ul {
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-
     line-height: 40px;
     line-height: 1.11111;
     letter-spacing: 0.02em;
@@ -574,7 +570,8 @@ ul {
     color: #434455;
 }
 
-/* footer */
+/* --footer-- */
+
 .footer {
     background-color: #2e2f42;
     padding: 96px 0;
@@ -585,8 +582,7 @@ ul {
     flex-direction: column;
     gap: 72px;
     align-items: center;
-    /* justify-content: center; */
-}
+    }
 
 .footer-container-logo {
     line-height: 1.5;
@@ -641,8 +637,7 @@ ul {
 }
 
 .subscribe-contaiener {
-    /* margin-left: auto;
-  padding-top: 72px; */
+
     text-align: center;
 }
 
@@ -738,7 +733,7 @@ ul {
     text-align: left;
 }
 
-/* Modal Window */
+/* ---Modal Window--- */
 
 .modal-window-container {
     position: fixed;
@@ -757,6 +752,7 @@ ul {
 .is-open {
     opacity: 1;
     pointer-events: auto;
+    
 }
 
 .modal-window {
@@ -823,8 +819,7 @@ ul {
     margin-bottom: 16px;
 }
 
-/* .mw-form {
-} */
+
 .mw-form-div {
     margin-bottom: 8px;
 }
@@ -898,8 +893,7 @@ ul {
     margin-bottom: 24px;
 }
 
-/* .checkbox-input {
-} */
+
 .label-privacy {
     font-size: 12px;
     line-height: 1.17;
@@ -925,9 +919,7 @@ ul {
     flex-shrink: 0;
 }
 
-/* .label-span-svg{
 
-} */
 .checkbox-input:checked+.label-privacy .label-span {
     background-color: #404bbf;
     border: none;
@@ -996,7 +988,7 @@ ul {
         gap: 12px;
     }
 
-    /* Section Title */
+    /* --Section Title-- */
 
     .headline {
         background-color: #2e2f42;
@@ -1029,7 +1021,7 @@ ul {
         margin-top: 36px;
     }
 
-    /* Content */
+    /* --Content-- */
 
     .content-menu-list {
         flex-direction: row;
@@ -1061,7 +1053,7 @@ ul {
     }
 
     .team-menu-item {
-        /* flex-basis: calc(50% - 24px); */
+
     }
 
     .team-container {
@@ -1091,7 +1083,6 @@ ul {
 
     .subscribe-container {
         flex-basis: 100%;
-        /* margin-top: 20px; */
         margin-top: 0;
         text-align: center;
         flex: 1;
@@ -1165,8 +1156,7 @@ ul {
         align-items: center;
     }
 
-    /* Header 1 */
-
+    
     .headline {
         background-color: #2e2f42;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -1232,6 +1222,7 @@ ul {
     }
 
     /* Our Team */
+
     .team {
         padding-top: 120px;
         padding-bottom: 120px;
@@ -1258,6 +1249,7 @@ ul {
     }
 
     /* Portfolio */
+
     .portfolio {
         padding-top: 120px;
         padding-bottom: 120px;
@@ -1274,6 +1266,7 @@ ul {
     }
 
     /* Footer */
+
     .footer {
         padding: 100px 0;
     }
@@ -1317,6 +1310,7 @@ ul {
     }
 
     /* Modal Window */
+    
     .modal-window {
         border-radius: 4px;
         min-width: 408px;
