@@ -707,6 +707,7 @@ ul {
 
 .subscribe-button-svg {
     margin-left: 16px;
+    fill: #ffffff;
 }
 
 .footer-logo {
@@ -722,7 +723,7 @@ ul {
     margin-bottom: 16px;
 }
 
-.footer-logo-span {
+.footer-logo-color {
     color: #f4f4fd;
 }
 
@@ -1088,6 +1089,7 @@ ul {
         flex: 1;
     }
 
+    
     .footer-container-logo {
         text-align: justify;
         align-items: baseline;
@@ -1121,6 +1123,7 @@ ul {
         min-width: 408px;
         min-height: 584px;
     }
+    
 }
 
 @media screen and (min-width: 1158px) {
